@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>currency</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-09 11:01:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-09 11:01:43</sys_updated_on>
+        <table>x_aai_finance_mana_finance_mgmt_task</table>
+        <ui_policy display_value="Show Manual ABO Fields">2f8295071be8f8d0fac820ebbc4bcbc8</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_ui_policy_action_7ce3a14b1bacf8d0fac820ebbc4bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>currency</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>aiukgf8</sys_created_by><sys_created_on>2021-06-09 11:01:43</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>currency</sys_name><sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope><sys_update_name>sys_ui_policy_action_7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_update_name><sys_updated_by>aiukgf8</sys_updated_by><sys_updated_on>2021-06-09 11:01:43</sys_updated_on><table>x_aai_finance_mana_finance_mgmt_task</table><ui_policy display_value="Show Manual ABO Fields">2f8295071be8f8d0fac820ebbc4bcbc8</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1464855634</payload_hash>
+        <record_name>currency</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-09 11:01:43</sys_created_on>
+        <sys_id>48f3a90b1bacf8d0fac820ebbc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f06f67a40000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-09 11:01:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>40f3a90b04acf8d0663252efb3e8dafd</update_guid>
+        <update_guid_history>40f3a90b04acf8d0663252efb3e8dafd:-1464855634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-09 15:13:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7f669efe6b0f473abf09a8abc9d9cb44</sys_id>
+        <sys_metadata>7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="">2f8295071be8f8d0fac820ebbc4bcbc8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7ce3a14b1bacf8d0fac820ebbc4bcbe2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7ce3a14b1bacf8d0fac820ebbc4bcbe2">48f3a90b1bacf8d0fac820ebbc4bcbfd</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-09 15:13:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

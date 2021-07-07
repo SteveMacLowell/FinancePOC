@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reqtype_manual_abo_payment_eu" table="x_aai_finance_mana_finance_management_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reqtype_manual_abo_payment_eu</element>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:06:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8e2dc3a5873c30d4f5a3baa6cebb3578</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reqtype_manual_abo_payment_eu</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_management_task_reqtype_manual_abo_payment_eu</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:06:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reqtype_manual_abo_payment_eu</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AR Payout</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:06:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>682dc365873c30d4f5a3baa6cebb35cb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:07:25</sys_updated_on>
+            <value>ar payout</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reqtype_manual_abo_payment_eu</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bonus</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>062d83e5873c30d4f5a3baa6cebb352e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:07:30</sys_updated_on>
+            <value>bonus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reqtype_manual_abo_payment_eu</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loan Advance</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db3dcb65873c30d4f5a3baa6cebb359f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:07:33</sys_updated_on>
+            <value>loan advance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reqtype_manual_abo_payment_eu</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Refund</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:07:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>405d03e5873c30d4f5a3baa6cebb35f8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:07:37</sys_updated_on>
+            <value>other refund</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

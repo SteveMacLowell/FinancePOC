@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Finance Management Task" max_length="40" name="x_aai_finance_mana_finance_management_task" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type: Payment Inquiry" max_length="40" name="acc_pau_inq_request_type_payment_inquiry" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Incorrect Payment Amount or Supplier/Payee" sequence="0" value="incorrect_payment_amount"/>
+                <element inactive_on_update="false" label="Duplicate Payment" sequence="1" value="duplicate_payment"/>
+                <element inactive_on_update="false" label="Payment not Received" sequence="2" value="payment_not_received"/>
+                <element inactive_on_update="false" label="Proof of Payment" sequence="3" value="proof_of_payment"/>
+                <element inactive_on_update="false" label="Reconciliation Request" sequence="4" value="reconciliation_request"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+                <element inactive_on_update="false" label="1099 Tax Inquiry" sequence="6" value="1099_tax_inquiry"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="acc_pay_inq_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Invoice Inquiry" sequence="0" value="invoice inquiry"/>
+                <element inactive_on_update="false" label="Payment Inquiry" sequence="1" value="payment inquiry"/>
+            </choice>
+        </element>
+        <element label="Invoice Inquiry" max_length="40" name="acc_pay_inq_invoice_inq" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="other" label="Request Type: Invoice Inquiry" max_length="40" name="acc_pay_inq_invoice_inquiry" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Invoice Status" sequence="0" value="invoice_status"/>
+                <element inactive_on_update="false" label="Incorrect Invoice Data" sequence="1" value="incorrect_invoice_data"/>
+                <element inactive_on_update="false" label="Cancel Invoice" sequence="2" value="cancel_invoice"/>
+                <element inactive_on_update="false" label="Duplicate Invoice" sequence="3" value="duplicate_invoice"/>
+                <element inactive_on_update="false" label="Approval Status" sequence="4" value="approval_status"/>
+                <element inactive_on_update="false" label="Accounting Inquiries" sequence="5" value="accoiunting_inquiries"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Invoice Number(s)" mandatory="true" max_length="40" name="acc_pay_inq_invoice_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Amount" max_length="40" name="acc_pay_inq_payment_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment Date" max_length="40" name="acc_pay_inq_payment_date" type="glide_date"/>
+        <element label="Payment Inquiry" max_length="40" name="acc_pay_inq_payment_inquiry" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type: Payment Inquiry" max_length="40" name="acc_pay_inq_request_type_payment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Incorrect Payment Amount or Supplier/Payee" sequence="0" value="incorrect_payment_amount"/>
+                <element inactive_on_update="false" label="Duplicate Payment" sequence="1" value="duplicate_payment"/>
+                <element inactive_on_update="false" label="Payment not Received" sequence="2" value="payment_not_received"/>
+                <element inactive_on_update="false" label="Proof of Payment" sequence="3" value="proof_of_payment"/>
+                <element inactive_on_update="false" label="Reconciliation Request" sequence="4" value="reconciliation_request"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Supplier Name / Number" mandatory="true" max_length="40" name="acc_pay_inq_suppliername" type="string"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver LA10k50k" max_length="32" name="approver_loan_adv_10k_50k" reference="sys_user_grmember" reference_qual="group=4dabe8791b296050fac820ebbc4bcb03^EQ" reference_qual_condition="group=4dabe8791b296050fac820ebbc4bcb03^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver LA50k" max_length="32" name="approver_loan_adv_morethan50k" reference="sys_user_grmember" reference_qual="group=4bcb20f91b296050fac820ebbc4bcbb1^EQ" reference_qual_condition="group=4bcb20f91b296050fac820ebbc4bcbb1^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver LA&lt;10kr" max_length="32" name="approver_loan_adv_russialessthan10k" reference="sys_user_grmember" reference_qual="group=dbf756c11ba92810fac820ebbc4bcbc8^EQ" reference_qual_condition="group=dbf756c11ba92810fac820ebbc4bcbc8^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver Nmira No" max_length="32" name="approver_normal_market_interest_is_no" reference="sys_user_grmember" reference_qual="group=1ecc5c311ba56050fac820ebbc4bcbb9^EQ" reference_qual_condition="group=1ecc5c311ba56050fac820ebbc4bcbb9^EQ" type="reference"/>
+        <element choice="1" label="Currency" max_length="40" name="currency_finance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ARS - Argentine Peso" sequence="100" value="ars_argentine_peso"/>
+                <element inactive_on_update="false" label="AUD - Australian Dollar" sequence="200" value="aud_australian_dollar"/>
+                <element inactive_on_update="false" label="BGN - Bulgarian Lev" sequence="300" value="bgn_bulgarian_lev"/>
+                <element inactive_on_update="false" label="BND - Brunei Dollar" sequence="400" value="bnd_brunei_dollar"/>
+                <element inactive_on_update="false" label="BRL - Brazilian Real" sequence="500" value="brl_brazilian_real"/>
+                <element inactive_on_update="false" label="CAD - Canadian Dollar" sequence="600" value="cad_canadian_dollar"/>
+                <element inactive_on_update="false" label="CHF - Swiss Franc" sequence="700" value="chf_swiss_franc"/>
+                <element inactive_on_update="false" label="CLP - Chilean Peso" sequence="800" value="clp_chilean_peso"/>
+                <element inactive_on_update="false" label="CNY - Yuan Renminbi" sequence="900" value="cny_yuan_renminbi"/>
+                <element inactive_on_update="false" label="COP - Colombian Peso" sequence="1000" value="cop_colombian_peso"/>
+                <element inactive_on_update="false" label="CRC - Costa Rican Colon" sequence="1100" value="crc_costa_rican_colon"/>
+                <element inactive_on_update="false" label="CZK - Czech Koruna" sequence="1200" value="czk_czech_koruna"/>
+                <element inactive_on_update="false" label="DKK - Danish Krone" sequence="1300" value="dkk_danish_krone"/>
+                <element inactive_on_update="false" label="DOP - Dominican Peso" sequence="1400" value="dop_dominican_peso"/>
+                <element inactive_on_update="false" label="EUR - Euro" sequence="1500" value="eur_euro"/>
+                <element inactive_on_update="false" label="GBP - Pound Sterling" sequence="1600" value="gbp_pound_sterling"/>
+                <element inactive_on_update="false" label="GHS - Ghana Cedi" sequence="1700" value="ghs_ghana_cedi"/>
+                <element inactive_on_update="false" label="GTQ - Quetzal" sequence="1800" value="gtq_quetzal"/>
+                <element inactive_on_update="false" label="HKD - Hong Kong Dollar" sequence="1900" value="hkd_hong_kong_dollar"/>
+                <element inactive_on_update="false" label="HNL - Lempira" sequence="2000" value="hnl_lempira"/>
+                <element inactive_on_update="false" label="HRK - Croatian kuna" sequence="2100" value="hrk_croatian_kuna"/>
+                <element inactive_on_update="false" label="HUF - Forint" sequence="2200" value="huf_forint"/>
+                <element inactive_on_update="false" label="IDR - Rupiah" sequence="2300" value="idr_rupiah"/>
+                <element inactive_on_update="false" label="INR - Indian Rupee" sequence="2400" value="inr_indian_rupee"/>
+                <element inactive_on_update="false" label="JPY - Yen" sequence="2500" value="jpy_yen"/>
+                <element inactive_on_update="false" label="KZT - Tenge" sequence="2600" value="kzt_tenge"/>
+                <element inactive_on_update="false" label="KRW - Won" sequence="2700" value="krw_won"/>
+                <element inactive_on_update="false" label="MAD - Moroccan Dirham" sequence="2800" value="mad_moroccan_dirham"/>
+                <element inactive_on_update="false" label="MOP - Pataca" sequence="2900" value="mop_pataca"/>
+                <element inactive_on_update="false" label="MXN - Mexican Peso" sequence="3000" value="mxn_mexican_peso"/>
+                <element inactive_on_update="false" label="MYR - Malaysian Ringgit" sequence="3100" value="myr_malaysian_ringgit"/>
+                <element inactive_on_update="false" label="NOK - Norwegian Krone" sequence="3200" value="nok_norwegian_krone"/>
+                <element inactive_on_update="false" label="NZD - New Zealand Dollar" sequence="3300" value="nzd_new_zealand_dollar"/>
+                <element inactive_on_update="false" label="PHP - Philippine Peso" sequence="3400" value="php_philippine_peso"/>
+                <element inactive_on_update="false" label="PLN - Zloty" sequence="3500" value="pln_zloty"/>
+                <element inactive_on_update="false" label="RON - New Romanian Leu" sequence="3600" value="ron_new_romanian_leu"/>
+                <element inactive_on_update="false" label="RUB - Russian Ruble" sequence="3700" value="rub_russian_ruble"/>
+                <element inactive_on_update="false" label="SEK - Swedish Krona" sequence="3800" value="sek_swedish_krona"/>
+                <element inactive_on_update="false" label="SGD - Singapore Dollar" sequence="3900" value="sgd_singapore_dollar"/>
+                <element inactive_on_update="false" label="SIT - Tolar" sequence="4000" value="sit_tolar"/>
+                <element inactive_on_update="false" label="SKK - Slovak Koruna" sequence="4100" value="skk_slovak_koruna"/>
+                <element inactive_on_update="false" label="THB - Baht" sequence="4200" value="thb_baht"/>
+                <element inactive_on_update="false" label="TRY - New Turkish Lira" sequence="4300" value="try_new_turkish_lira"/>
+                <element inactive_on_update="false" label="TWD - New Taiwan Dollar" sequence="4400" value="twd_new_taiwan_dollar"/>
+                <element inactive_on_update="false" label="UAH - Hryvnia" sequence="4500" value="uah_hryvnia"/>
+                <element inactive_on_update="false" label="USD - US Dollar" sequence="4600" value="usd_us_dollar"/>
+                <element inactive_on_update="false" label="UYU - Peso Uruguayo" sequence="4700" value="uyu_peso_uruguayo"/>
+                <element inactive_on_update="false" label="VND - Dong" sequence="4800" value="vnd_dong"/>
+                <element inactive_on_update="false" label="XCD - East Carribbean Dollar" sequence="4900" value="xcd_east_carribbean_dollar"/>
+                <element inactive_on_update="false" label="ZAR - Rand" sequence="5000" value="zar_rand"/>
+                <element inactive_on_update="false" label="AED - Arabian Emirates Dirham" sequence="5100" value="aed_arabian_emirates_dirham"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Please explain your request" mandatory="true" max_length="40" name="explain_your_request" type="string"/>
+        <element attributes="encode_utf8=false" label="Catalog Item" mandatory="true" max_length="32" name="fin_cat_item" reference="sc_cat_item" reference_qual="sc_catalogsLIKEb0c29ed1db976bc07b7884eb0b96194c^EQ" reference_qual_condition="sc_catalogsLIKEb0c29ed1db976bc07b7884eb0b96194c^EQ" type="reference"/>
+        <element label="Additional information and/or requestor comments" max_length="40" name="manual_abo_addl_comms" type="string"/>
+        <element label="Number of Payments" max_length="40" name="manual_abo_number_of_paymemts" type="string"/>
+        <element label="Total Payment Amount from Excel" max_length="40" name="manual_abo_payment_amount_excel" type="string"/>
+        <element label="Highest Payment Value" max_length="40" name="manual_abo_payment_highestpaymentvalue" type="string"/>
+        <element label="Highest Payment Value in USD" max_length="40" name="manual_abo_payment_highestpaymentvalue_usd" read_only="true" type="string"/>
+        <element choice="1" label="Normal Market Interest Rate Applied" max_length="0" name="normal_market_interest_rate_applied" type="boolean">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Operating Unit" mandatory="true" max_length="32" name="operating_unit" reference="core_company" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver 1k" max_length="32" name="please_select_the_approver_1000" reference="sys_user_grmember" reference_qual="group=4a49da851ba92810fac820ebbc4bcb17^EQ" reference_qual_condition="group=4a49da851ba92810fac820ebbc4bcb17^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver 50k" max_length="32" name="please_select_the_approver_50000" reference="sys_user_grmember" reference_qual="group=e57996c51ba92810fac820ebbc4bcbbd^EQ" reference_qual_condition="group=e57996c51ba92810fac820ebbc4bcbbd^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver Central" max_length="32" name="please_select_the_approver_central" reference="sys_user_grmember" reference_qual="group=d4e89a851ba92810fac820ebbc4bcb4d^EQ" reference_qual_condition="group=d4e89a851ba92810fac820ebbc4bcb4d^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver East" max_length="32" name="please_select_the_approver_east" reference="sys_user_grmember" reference_qual="group=36199a851ba92810fac820ebbc4bcb2d^EQ&#13;&#10;" reference_qual_condition="group=36199a851ba92810fac820ebbc4bcb2d^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver LA" max_length="32" name="please_select_the_approver_loan_adv" reference="sys_user_grmember" reference_qual="group=dbf756c11ba92810fac820ebbc4bcbc8^EQ" reference_qual_condition="group=dbf756c11ba92810fac820ebbc4bcbc8^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver Appnorth" max_length="32" name="please_select_the_approver_north" reference="sys_user_grmember" reference_qual="group=5b4892051ba92810fac820ebbc4bcb68^EQ" reference_qual_condition="group=5b4892051ba92810fac820ebbc4bcb68^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver RUL10k" max_length="32" name="please_select_the_approver_russialessthan10k" reference="sys_user_grmember" reference_qual="group=15b9f4a11bb3a410c34a326ecc4bcbf2^EQ" reference_qual_condition="group=15b9f4a11bb3a410c34a326ecc4bcbf2^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Please select the Approver RUM10k" max_length="32" name="please_select_the_approver_russiamorethan10k" reference="sys_user_grmember" reference_qual="group=37e574a11bff6410c34a326ecc4bcbe6^EQ" reference_qual_condition="group=37e574a11bff6410c34a326ecc4bcbe6^EQ" type="reference"/>
+        <element choice="1" label="Request type EU" mandatory="true" max_length="40" name="reqtype_manual_abo_payment_eu" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AR Payout" sequence="100" value="ar payout"/>
+                <element inactive_on_update="false" label="Bonus" sequence="200" value="bonus"/>
+                <element inactive_on_update="false" label="Loan Advance" sequence="300" value="loan advance"/>
+                <element inactive_on_update="false" label="Other Refund" sequence="400" value="other refund"/>
+            </choice>
+        </element>
+        <element choice="1" label="Request Type RU" mandatory="true" max_length="40" name="reqtype_manual_abo_payment_ru" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AR Payout" sequence="100" value="ar payout"/>
+                <element inactive_on_update="false" label="Loan Advance" sequence="200" value="loan advance"/>
+                <element inactive_on_update="false" label="Other Refund" sequence="300" value="other refund"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="fin_cat_item"/>
+        </index>
+        <index name="index2">
+            <element name="approver_loan_adv_10k_50k"/>
+        </index>
+        <index name="index3">
+            <element name="approver_loan_adv_morethan50k"/>
+        </index>
+        <index name="index4">
+            <element name="operating_unit"/>
+        </index>
+    </element>
+</database>

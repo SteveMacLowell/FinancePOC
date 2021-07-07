@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="acc_pay_inq_invoice_inquiry" table="x_aai_finance_mana_finance_management_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>81840853dbbc30d05f57a8dad396193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>acc_pay_inq_invoice_inquiry</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_management_task_acc_pay_inq_invoice_inquiry</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invoice Status</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09840853dbbc30d05f57a8dad3961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>invoice_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Invoice Data</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45840853dbbc30d05f57a8dad396193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>incorrect_invoice_data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancel Invoice</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d840853dbbc30d05f57a8dad3961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>cancel_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate Invoice</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1840853dbbc30d05f57a8dad3961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>duplicate_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval Status</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89840853dbbc30d05f57a8dad3961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>approval_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accounting Inquiries</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41840853dbbc30d05f57a8dad396194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>accoiunting_inquiries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_invoice_inquiry</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09840853dbbc30d05f57a8dad396194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 08:58:59</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

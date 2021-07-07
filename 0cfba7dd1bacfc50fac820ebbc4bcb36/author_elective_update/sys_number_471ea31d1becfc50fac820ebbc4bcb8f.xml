@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_aai_finance_mana_finance_mgmt_task">x_aai_finance_mana_finance_mgmt_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>FINM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-04 10:36:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>471ea31d1becfc50fac820ebbc4bcb8f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FINM</sys_name>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_number_471ea31d1becfc50fac820ebbc4bcb8f</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:35:28</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_number_471ea31d1becfc50fac820ebbc4bcb8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_aai_finance_mana_finance_mgmt_task">x_aai_finance_mana_finance_mgmt_task</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>FINM</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>aiukgf8</sys_created_by><sys_created_on>2021-06-04 10:36:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>471ea31d1becfc50fac820ebbc4bcb8f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>FINM</sys_name><sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope><sys_update_name>sys_number_471ea31d1becfc50fac820ebbc4bcb8f</sys_update_name><sys_updated_by>aiukgf8</sys_updated_by><sys_updated_on>2021-06-16 12:35:28</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1867229135</payload_hash>
+        <record_name>FINM</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-16 12:35:32</sys_created_on>
+        <sys_id>f28cb91d8770781427130e97cebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a14d1d15a0000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:35:32</sys_updated_on>
+        <type>Number</type>
+        <update_guid>fa8cb91d47707814b8e1feb8dae65499</update_guid>
+        <update_guid_history>fa8cb91d47707814b8e1feb8dae65499:-1867229135,2d8cf1d5bc707814c92358fe7984629c:-1547604663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 10:44:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>148c28d93a0b4dee84e34db32eaf1a61</sys_id>
+        <sys_metadata>471ea31d1becfc50fac820ebbc4bcb8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FINM</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="">ea1e631d1becfc50fac820ebbc4bcb1d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_number_471ea31d1becfc50fac820ebbc4bcb8f</sys_update_name>
+        <sys_update_version display_value="sys_number_471ea31d1becfc50fac820ebbc4bcb8f">f28cb91d8770781427130e97cebb359a</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 10:44:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

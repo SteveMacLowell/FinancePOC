@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>currency_finance</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Amount change fix(Highest line) </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var amount = g_form.getValue('manual_abo_payment_highestpaymentvalue');
+    var currency = g_form.getValue('currency_finance');
+	var amt;
+
+    if (currency == 'ars_argentine_peso') { //ARS - Argentine Peso
+        
+		amt=amount / 101.51;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+		g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'aud_australian_dollar') {
+		amt=amount / 1.3700;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'bgn_bulgarian_lev') {
+		amt=amount / 1.65;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'bnd_brunei_dollar') {
+		amt=amount / 1.36;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'brl_brazilian_real') {
+		amt=amount / 5.27;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'cad_canadian_dollar') {
+		amt=amount / 1.31;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'chf_swiss_franc') {
+		amt=amount / 0.91;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'clp_chilean_peso') {
+		amt=amount / 782;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'cny_yuan_renminbi') {
+		amt=amount / 6.86;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'cop_colombian_peso') {
+		amt=amount / 3699;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'crc_costa_rican_colon') {
+		amt=amount / 594;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'czk_czech_koruna') {
+		amt=amount / 22;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'dkk_danish_krone') {
+		amt=amount / 6.29;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'dop_dominican_peso') {
+		amt=amount / 58.20;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'eur_euro') {
+		amt=amount / 0.8400;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'gbp_pound_sterling') {
+		amt=amount / 0.763;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'ghs_ghana_cedi') {
+		amt=amount / 6.30;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'gtq_quetzal') {
+		amt=amount / 7.75;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'hkd_hong_kong_dollar') {
+		amt=amount / 7.78;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'hnl_lempira') {
+		amt=amount / 25.52;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'hrk_croatian_kuna') {
+		amt=amount / 6.34;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'huf_forint') {
+		amt=amount / 303;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'idr_rupiah') {
+		amt=amount / 14600;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'inr_indian_rupee') {
+		amt=amount / 73.88;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'jpy_yen') {
+		amt=amount / 105;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    }
+    // 	else if(currency == 'kzt_tenge'){
+    //  g_form.setValue('amount_in_usd',amount*105);
+    //    }
+	else if (currency == 'kzt_tenge') {
+		amt=amount / 421;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    }
+    else if (currency == 'krw_won') {
+		amt=amount / 1163;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'mad_moroccan_dirham') {
+		amt=amount / 8.76311;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'mad_moroccan_dirham') {
+		amt=amount / 9.64472;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'mop_pataca') {
+		amt=amount / 7.99;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'mxn_mexican_peso') {
+		amt=amount / 21.63;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'myr_malaysian_ringgit') {
+		amt=amount / 4.13;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'nok_norwegian_krone') {
+		amt=amount / 8.82;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'nzd_new_zealand_dollar') {
+		amt=amount / 1.4930;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'php_philippine_peso') {
+		amt=amount / 52.77;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'pln_zloty') {
+		amt=amount / 3.73;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'ron_new_romanian_leu') {
+		amt=amount / 4.16;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'rub_russian_ruble') {
+		amt=amount / 71.44;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'sek_swedish_krona') {
+		amt=amount / 8.71;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'sgd_singapore_dollar') {
+		amt=amount / 1.36;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    }
+    // 	else if(currency == 'sit_tolarr'){
+    //  g_form.setValue('amount_in_usd',amount*1.39);
+    //    }
+    // 	else if(currency == 'skk_slovak_koruna'){
+    //  g_form.setValue('amount_in_usd',amount*1.39);
+    //    }
+    else if (currency == 'thb_baht') {
+		amt=amount / 30.99;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'try_new_turkish_lira') {
+		amt=amount / 7.84;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'twd_new_taiwan_dollar') {
+		amt=amount / 29.06;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'uah_hryvnia') {
+		amt=amount / 27.31;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'usd_us_dollar') {
+		amt=amount / 1;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'uyu_peso_uruguayo') {
+		amt=amount / 45.19;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'vnd_dong') {
+		amt=amount / 23300;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'xcd_east_carribbean_dollar') {
+		amt=amount / 2.70000;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    } else if (currency == 'zar_rand') {
+		amt=amount / 16.91;
+		amt=amt.toFixed(2);
+		//amt=amt.toString();amt=amt.slice(0, (amt.indexOf('.'))+3);
+        g_form.setValue('manual_abo_payment_highestpaymentvalue_usd', amt);
+    }
+    // 	else if(currency == 'aed_arabian_emirates_dirham'){
+    //  g_form.setValue('amount_in_usd',amount*15.05);
+    //    }
+    }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-22 16:01:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4505e51fdb34b0d05f57a8dad3961938</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Amount change fix(Highest line) </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_script_client_4505e51fdb34b0d05f57a8dad3961938</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-22 16:03:35</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>manual_abo_payment_highestpaymentvalue_usd</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(high. line)Show Approvers east</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+var test = parseFloat(g_form.getValue('highest_line_value_in_usd'));
+	//var a= g_form.getValue('amount_in_usd');
+var ou = g_form.getValue('operating_unit');
+	if(ou=='600d9e04db9e8410151025894b96199b'||ou=='ceaca6d8dbaefa005d625434ce961931'||ou=='15fc5a44db9e8410151025894b961991'
+||ou=='c74d9284db9e8410151025894b96191f'||ou=='91ac66d8dbaefa005d625434ce96194d'||ou=='d30d1284db9e8410151025894b9619da'
+||ou=='182d5e44db9e8410151025894b9619c9'||ou=='632dde44db9e8410151025894b961957'||ou=='49ac26d8dbaefa005d625434ce9619cf'
+||ou=='d55d5284db9e8410151025894b9619cd'||ou=='2dac66d8dbaefa005d625434ce961972'||ou=='51ac66d8dbaefa005d625434ce961930'){
+		//alert('test'+ou);
+		if (g_form.getValue('request_type') != 'Loan/Advance' && g_form.getValue('quantity_of_payments') == 'Multiple' )
+		//if ((g_form.getValue('request_type') == 'AR Payout' ||g_form.getValue('request_type') == 'Bonus	'||g_form.getValue('request_type') == 'Other Refund') && g_form.getValue('quantity_of_payments') == 'Multiple')
+		{   
+if(test<=1000.00){
+			//alert('345' +test);
+		g_form.setDisplay('	please_select_the_approver_east','true');
+		g_form.setMandatory('please_select_the_approver_east','true');
+}
+			else{
+	g_form.clearValue('please_select_the_approver_east');			
+	g_form.setDisplay('please_select_the_approver_east','false');
+g_form.setMandatory('please_select_the_approver_east','false');
+				
+}   
+		
+	}
+	
+   
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-23 10:11:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>948e99a78770709427130e97cebb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(high. line)Show Approvers east</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_script_client_948e99a78770709427130e97cebb3529</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-23 10:11:06</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_script_client_948e99a78770709427130e97cebb3529</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;manual_abo_payment_highestpaymentvalue_usd&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;(high. line)Show Approvers east&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+var test = parseFloat(g_form.getValue('highest_line_value_in_usd'));
+	//var a= g_form.getValue('amount_in_usd');
+var ou = g_form.getValue('operating_unit');
+	if(ou=='600d9e04db9e8410151025894b96199b'||ou=='ceaca6d8dbaefa005d625434ce961931'||ou=='15fc5a44db9e8410151025894b961991'
+||ou=='c74d9284db9e8410151025894b96191f'||ou=='91ac66d8dbaefa005d625434ce96194d'||ou=='d30d1284db9e8410151025894b9619da'
+||ou=='182d5e44db9e8410151025894b9619c9'||ou=='632dde44db9e8410151025894b961957'||ou=='49ac26d8dbaefa005d625434ce9619cf'
+||ou=='d55d5284db9e8410151025894b9619cd'||ou=='2dac66d8dbaefa005d625434ce961972'||ou=='51ac66d8dbaefa005d625434ce961930'){
+		//alert('test'+ou);
+		if (g_form.getValue('request_type') != 'Loan/Advance' &amp;&amp; g_form.getValue('quantity_of_payments') == 'Multiple' )
+		//if ((g_form.getValue('request_type') == 'AR Payout' ||g_form.getValue('request_type') == 'Bonus	'||g_form.getValue('request_type') == 'Other Refund') &amp;&amp; g_form.getValue('quantity_of_payments') == 'Multiple')
+		{   
+if(test&lt;=1000.00){
+			//alert('345' +test);
+		g_form.setDisplay('	please_select_the_approver_east','true');
+		g_form.setMandatory('please_select_the_approver_east','true');
+}
+			else{
+	g_form.clearValue('please_select_the_approver_east');			
+	g_form.setDisplay('please_select_the_approver_east','false');
+g_form.setMandatory('please_select_the_approver_east','false');
+				
+}   
+		
+	}
+	
+   
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aiukgf8&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-23 10:11:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;948e99a78770709427130e97cebb3529&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;(high. line)Show Approvers east&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Management" source="x_aai_finance_mana"&gt;0cfba7dd1bacfc50fac820ebbc4bcb36&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Finance Management"&gt;0cfba7dd1bacfc50fac820ebbc4bcb36&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_948e99a78770709427130e97cebb3529&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aiukgf8&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-23 10:11:06&lt;/sys_updated_on&gt;&lt;table&gt;x_aai_finance_mana_finance_management_task&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-250636900</payload_hash>
+        <record_name>(high. line)Show Approvers east</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-23 10:11:06</sys_created_on>
+        <sys_id>df9e15e78770709427130e97cebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a385a198e0000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-23 10:11:06</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d79e15e7c7707094802c8b9daaa92c81</update_guid>
+        <update_guid_history>d79e15e7c7707094802c8b9daaa92c81:-250636900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-23 10:13:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>30f181d91c7a4c94bf271c74badf9624</sys_id>
+        <sys_metadata>948e99a78770709427130e97cebb3529</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(high. line)Show Approvers east</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="Finance Management Task">65fbbd198770781427130e97cebb35af</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_script_client_948e99a78770709427130e97cebb3529</sys_update_name>
+        <sys_update_version display_value="sys_script_client_948e99a78770709427130e97cebb3529">df9e15e78770709427130e97cebb3581</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-23 10:13:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

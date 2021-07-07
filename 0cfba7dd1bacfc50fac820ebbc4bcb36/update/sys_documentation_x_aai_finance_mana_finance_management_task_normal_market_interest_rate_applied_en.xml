@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="normal_market_interest_rate_applied" label="Normal Market Interest Rate Applied" language="en" table="x_aai_finance_mana_finance_management_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>normal_market_interest_rate_applied</element>
+            <help/>
+            <hint/>
+            <label>Normal Market Interest Rate Applied</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <plural>Normal Market Interest Rate Applied</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:09:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>440ec369873c30d4f5a3baa6cebb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Normal Market Interest Rate Applied</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_documentation_x_aai_finance_mana_finance_management_task_normal_market_interest_rate_applied_en</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:09:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

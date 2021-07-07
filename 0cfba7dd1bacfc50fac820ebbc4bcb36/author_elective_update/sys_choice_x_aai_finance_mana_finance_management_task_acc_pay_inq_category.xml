@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="acc_pay_inq_category" table="x_aai_finance_mana_finance_management_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>acc_pay_inq_category</element>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-21 11:33:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>034e9372dbb87c905f57a8dad39619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>acc_pay_inq_category</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_management_task_acc_pay_inq_category</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-21 11:33:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invoice Inquiry</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-21 11:33:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>874e9372dbb87c905f57a8dad39619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-21 11:33:32</sys_updated_on>
+            <value>invoice inquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payment Inquiry</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-21 11:33:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>434e9372dbb87c905f57a8dad39619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-21 11:33:32</sys_updated_on>
+            <value>payment inquiry</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="acc_pay_inq_payment_amount" label="Amount" language="en" table="x_aai_finance_mana_finance_management_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>acc_pay_inq_payment_amount</element>
+            <help/>
+            <hint/>
+            <label>Amount</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <plural>Amounts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 11:58:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>008d20dbdb7470d05f57a8dad396199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Amount</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_documentation_x_aai_finance_mana_finance_management_task_acc_pay_inq_payment_amount_en</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 11:58:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

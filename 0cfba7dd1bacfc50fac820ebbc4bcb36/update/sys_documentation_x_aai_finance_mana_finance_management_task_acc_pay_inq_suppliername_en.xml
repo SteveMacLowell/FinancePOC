@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="acc_pay_inq_suppliername" label="Supplier Name / Number" language="en" table="x_aai_finance_mana_finance_management_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>acc_pay_inq_suppliername</element>
+            <help/>
+            <hint/>
+            <label>Supplier Name / Number</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <plural>Supplier Name / Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-21 11:38:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7b5fd736dbb87c905f57a8dad396194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supplier Name / Number</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_documentation_x_aai_finance_mana_finance_management_task_acc_pay_inq_suppliername_en</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-21 11:38:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

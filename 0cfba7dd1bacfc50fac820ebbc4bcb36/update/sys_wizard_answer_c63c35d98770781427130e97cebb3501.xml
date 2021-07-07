@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Finance Management Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Finance Management Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">71f65a63db022200c32cfcfaae961981</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-16 12:34:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c63c35d98770781427130e97cebb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Management Task</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_wizard_answer_c63c35d98770781427130e97cebb3501</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:34:08</sys_updated_on>
+        <table/>
+        <target_url>x_aai_finance_mana_finance_management_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

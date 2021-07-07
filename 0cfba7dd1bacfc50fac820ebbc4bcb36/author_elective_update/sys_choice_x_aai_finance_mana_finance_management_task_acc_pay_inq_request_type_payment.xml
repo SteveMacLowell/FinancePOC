@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="acc_pay_inq_request_type_payment" table="x_aai_finance_mana_finance_management_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>acc_pay_inq_request_type_payment</element>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5dc84013dbfc30d05f57a8dad39619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>acc_pay_inq_request_type_payment</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_management_task_acc_pay_inq_request_type_payment</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Payment Amount or Supplier/Payee</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15c84013dbfc30d05f57a8dad39619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>incorrect_payment_amount</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate Payment</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9c84013dbfc30d05f57a8dad39619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>duplicate_payment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payment not Received</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91c84013dbfc30d05f57a8dad39619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>payment_not_received</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proof of Payment</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59c84013dbfc30d05f57a8dad39619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>proof_of_payment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reconciliation Request</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11c84013dbfc30d05f57a8dad39619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>reconciliation_request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>acc_pay_inq_request_type_payment</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>5</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-22 09:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5c84013dbfc30d05f57a8dad39619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-22 09:17:34</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

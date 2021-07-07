@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="currency" table="x_aai_finance_mana_finance_mgmt_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>currency</element>
+            <name>x_aai_finance_mana_finance_mgmt_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-09 10:55:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e77265471bacf8d0fac820ebbc4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>currency</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_mgmt_task_currency</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-09 10:55:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

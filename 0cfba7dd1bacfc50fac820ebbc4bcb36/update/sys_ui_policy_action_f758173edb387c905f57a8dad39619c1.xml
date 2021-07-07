@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>currency_finance</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 11:07:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f758173edb387c905f57a8dad39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency_finance</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f758173edb387c905f57a8dad39619c1</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 11:07:39</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <ui_policy display_value="MAPR - Show Options for Manual ABO payments">7777db7edb387c905f57a8dad396195a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

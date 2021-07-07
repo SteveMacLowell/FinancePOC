@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="currency_finance" table="x_aai_finance_mana_finance_management_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>currency_finance</element>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:19:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0e40dfad873c30d4f5a3baa6cebb35c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>currency_finance</sys_name>
+            <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+            <sys_update_name>sys_choice_x_aai_finance_mana_finance_management_task_currency_finance</sys_update_name>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:19:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ARS - Argentine Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-17 13:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>746057ed873c30d4f5a3baa6cebb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-17 13:20:47</sys_updated_on>
+            <value>ars_argentine_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AUD - Australian Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:36:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>702b282d87053c98f5a3baa6cebb3542</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:36:27</sys_updated_on>
+            <value>aud_australian_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BGN - Bulgarian Lev</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:36:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8bbe0ed87053c98f5a3baa6cebb35d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:38:57</sys_updated_on>
+            <value>bgn_bulgarian_lev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BND - Brunei Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6eb2c6d87053c98f5a3baa6cebb3519</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:39:01</sys_updated_on>
+            <value>bnd_brunei_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BRL - Brazilian Real</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>500</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fffb60ed87053c98f5a3baa6cebb35d9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:39:06</sys_updated_on>
+            <value>brl_brazilian_real</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAD - Canadian Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>600</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:38:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1c2ce987053c98f5a3baa6cebb3519</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:39:11</sys_updated_on>
+            <value>cad_canadian_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHF - Swiss Franc</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>700</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>712ce0a187453c98f5a3baa6cebb350f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:39:15</sys_updated_on>
+            <value>chf_swiss_franc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CLP - Chilean Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>800</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:40:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b5ce8ed87053c98f5a3baa6cebb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:40:01</sys_updated_on>
+            <value>clp_chilean_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CNY - Yuan Renminbi</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>900</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:40:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>439ce82587453c98f5a3baa6cebb35de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:40:29</sys_updated_on>
+            <value>cny_yuan_renminbi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COP - Colombian Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1000</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:41:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3cc60ed87053c98f5a3baa6cebb3597</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:41:20</sys_updated_on>
+            <value>cop_colombian_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRC - Costa Rican Colon</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:41:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9eca06587453c98f5a3baa6cebb350b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:11</sys_updated_on>
+            <value>crc_costa_rican_colon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CZK - Czech Koruna</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:42:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc0d64a187453c98f5a3baa6cebb3538</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:18</sys_updated_on>
+            <value>czk_czech_koruna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DKK - Danish Krone</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:42:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad1daca187453c98f5a3baa6cebb355d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:22</sys_updated_on>
+            <value>dkk_danish_krone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DOP - Dominican Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c03d20e587453c98f5a3baa6cebb3553</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:31</sys_updated_on>
+            <value>dop_dominican_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EUR - Euro</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1500</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:43:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d4d602987453c98f5a3baa6cebb35df</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:44</sys_updated_on>
+            <value>eur_euro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GBP - Pound Sterling</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1600</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:43:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>725d602587453c98f5a3baa6cebb354f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:49</sys_updated_on>
+            <value>gbp_pound_sterling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GHS - Ghana Cedi</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1700</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:44:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>827d68a587453c98f5a3baa6cebb35ee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:46:54</sys_updated_on>
+            <value>ghs_ghana_cedi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GTQ - Quetzal</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1800</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:44:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f38de46987453c98f5a3baa6cebb3531</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:47:00</sys_updated_on>
+            <value>gtq_quetzal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HKD - Hong Kong Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>1900</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddad20a987453c98f5a3baa6cebb35a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:47:07</sys_updated_on>
+            <value>hkd_hong_kong_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HNL - Lempira</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2000</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:45:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9bd2c6987453c98f5a3baa6cebb3501</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:47:14</sys_updated_on>
+            <value>hnl_lempira</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRK - Croatian kuna</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:45:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7cda4a987453c98f5a3baa6cebb352c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:47:19</sys_updated_on>
+            <value>hrk_croatian_kuna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HUF - Forint</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>483ee8e987453c98f5a3baa6cebb354e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:51:52</sys_updated_on>
+            <value>huf_forint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IDR - Rupiah</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:48:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e6e6c2d87453c98f5a3baa6cebb3504</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:51:57</sys_updated_on>
+            <value>idr_rupiah</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INR - Indian Rupee</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:48:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d37e6c2d87453c98f5a3baa6cebb350b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:04</sys_updated_on>
+            <value>inr_indian_rupee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JPY - Yen</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2500</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:49:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f8e60ad87453c98f5a3baa6cebb35f3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:10</sys_updated_on>
+            <value>jpy_yen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KZT - Tenge</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2600</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:49:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dae2cad87453c98f5a3baa6cebb3521</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:19</sys_updated_on>
+            <value>kzt_tenge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KRW - Won</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2700</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:49:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ebea0ed87453c98f5a3baa6cebb35f6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:25</sys_updated_on>
+            <value>krw_won</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MAD - Moroccan Dirham</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2800</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60de2cad87453c98f5a3baa6cebb3531</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:31</sys_updated_on>
+            <value>mad_moroccan_dirham</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MOP - Pataca</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>2900</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:50:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffee282187853c98f5a3baa6cebb3523</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:35</sys_updated_on>
+            <value>mop_pataca</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MXN - Mexican Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3000</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:50:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77fe282187853c98f5a3baa6cebb352a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:40</sys_updated_on>
+            <value>mxn_mexican_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MYR - Malaysian Ringgit</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>591fa82187853c98f5a3baa6cebb35ef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:46</sys_updated_on>
+            <value>myr_malaysian_ringgit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NOK - Norwegian Krone</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:51:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>962f646187853c98f5a3baa6cebb35d9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:52:52</sys_updated_on>
+            <value>nok_norwegian_krone</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NZD - New Zealand Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:53:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d8faca187853c98f5a3baa6cebb35d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:53:47</sys_updated_on>
+            <value>nzd_new_zealand_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PHP - Philippine Peso</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:54:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94cf2c2587853c98f5a3baa6cebb358a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:54:14</sys_updated_on>
+            <value>php_philippine_peso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PLN - Zloty</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3500</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:54:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1dfa0a187853c98f5a3baa6cebb35d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:56:38</sys_updated_on>
+            <value>pln_zloty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RON - New Romanian Leu</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3600</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72ef68a187853c98f5a3baa6cebb357c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:56:43</sys_updated_on>
+            <value>ron_new_romanian_leu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RUB - Russian Ruble</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3700</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:55:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83ff2c2587853c98f5a3baa6cebb3592</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:56:50</sys_updated_on>
+            <value>rub_russian_ruble</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEK - Swedish Krona</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3800</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:55:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f00b42587853c98f5a3baa6cebb3555</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:56:56</sys_updated_on>
+            <value>sek_swedish_krona</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SGD - Singapore Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>3900</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:55:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99207ca587853c98f5a3baa6cebb3519</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:57:01</sys_updated_on>
+            <value>sgd_singapore_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SIT - Tolar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4000</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6930f46587853c98f5a3baa6cebb35de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:57:07</sys_updated_on>
+            <value>sit_tolar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SKK - Slovak Koruna</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:57:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b180fca187853c98f5a3baa6cebb35c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:57:37</sys_updated_on>
+            <value>skk_slovak_koruna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>THB - Baht</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4200</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:58:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19a0bce587853c98f5a3baa6cebb35a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:58:07</sys_updated_on>
+            <value>thb_baht</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRY - New Turkish Lira</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4300</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b0f46587853c98f5a3baa6cebb359c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:58:33</sys_updated_on>
+            <value>try_new_turkish_lira</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TWD - New Taiwan Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4400</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:59:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2d03ce587853c98f5a3baa6cebb35b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:59:01</sys_updated_on>
+            <value>twd_new_taiwan_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAH - Hryvnia</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4500</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 11:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1df0306987853c98f5a3baa6cebb352e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 11:59:29</sys_updated_on>
+            <value>uah_hryvnia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD - US Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4600</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac81b4e987853c98f5a3baa6cebb3515</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:01:53</sys_updated_on>
+            <value>usd_us_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UYU - Peso Uruguayo</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4700</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:07:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ab2386187c53c98f5a3baa6cebb353e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:09:22</sys_updated_on>
+            <value>uyu_peso_uruguayo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VND - Dong</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4800</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:07:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7c2fc6187c53c98f5a3baa6cebb351d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:09:29</sys_updated_on>
+            <value>vnd_dong</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>XCD - East Carribbean Dollar</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>4900</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88e2f4a187c53c98f5a3baa6cebb3593</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:09:33</sys_updated_on>
+            <value>xcd_east_carribbean_dollar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ZAR - Rand</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>5000</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:08:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78f23c6187c53c98f5a3baa6cebb35a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:09:39</sys_updated_on>
+            <value>zar_rand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_finance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AED - Arabian Emirates Dirham</label>
+            <language>en</language>
+            <name>x_aai_finance_mana_finance_management_task</name>
+            <sequence>5100</sequence>
+            <sys_created_by>aiukgf8</sys_created_by>
+            <sys_created_on>2021-06-29 12:08:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad03786187c53c98f5a3baa6cebb35c7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aiukgf8</sys_updated_by>
+            <sys_updated_on>2021-06-29 12:09:44</sys_updated_on>
+            <value>aed_arabian_emirates_dirham</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Finance Mgmt Task</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_aai_finance_mana_finance_mgmt_task</name>
+        <number_ref display_value="FINM">471ea31d1becfc50fac820ebbc4bcb8f</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Catalog Task" name="sc_task">7da95e67db022200c32cfcfaae9619ac</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-04 10:36:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea1e631d1becfc50fac820ebbc4bcb1d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Finance Mgmt Task</sys_name>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_db_object_ea1e631d1becfc50fac820ebbc4bcb1d</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:35:32</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_db_object_ea1e631d1becfc50fac820ebbc4bcb1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>true</is_extendable><label>Finance Mgmt Task</label><live_feed_enabled>false</live_feed_enabled><name>x_aai_finance_mana_finance_mgmt_task</name><number_ref display_value="FINM">471ea31d1becfc50fac820ebbc4bcb8f</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Catalog Task" name="sc_task">7da95e67db022200c32cfcfaae9619ac</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>aiukgf8</sys_created_by><sys_created_on>2021-06-04 10:36:00</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ea1e631d1becfc50fac820ebbc4bcb1d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Finance Mgmt Task</sys_name><sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope><sys_update_name>sys_db_object_ea1e631d1becfc50fac820ebbc4bcb1d</sys_update_name><sys_updated_by>aiukgf8</sys_updated_by><sys_updated_on>2021-06-16 12:35:32</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1158376965</payload_hash>
+        <record_name>Finance Mgmt Task</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-16 12:35:33</sys_created_on>
+        <sys_id>7a8cf91d8770781427130e97cebb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a14d1d2160000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-16 12:35:33</sys_updated_on>
+        <type>Table</type>
+        <update_guid>be8cf91dd57078143ff6ba7febcbc75b</update_guid>
+        <update_guid_history>be8cf91dd57078143ff6ba7febcbc75b:1158376965,031ea31dc6ecfc508b336c53784e3a8e:-1337812524,831ea31d6aecfc50cc0025cd629f5a7b:1174014752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 10:32:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>76a0f1d93e6f46d6b425671e22e1d224</sys_id>
+        <sys_metadata>ea1e631d1becfc50fac820ebbc4bcb1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Mgmt Task</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_db_object_ea1e631d1becfc50fac820ebbc4bcb1d</sys_update_name>
+        <sys_update_version display_value="sys_db_object_ea1e631d1becfc50fac820ebbc4bcb1d">7a8cf91d8770781427130e97cebb355c</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 10:32:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

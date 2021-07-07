@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reqtype_manual_abo_payment_eu</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 11:11:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f5391f72db787c905f57a8dad3961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>reqtype_manual_abo_payment_eu</sys_name>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f5391f72db787c905f57a8dad3961987</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 11:12:25</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <ui_policy display_value="Show Request type for RU Manual ABO Payment request">f0889ffedb387c905f57a8dad39619cf</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_ui_policy_action_f5391f72db787c905f57a8dad3961987</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>reqtype_manual_abo_payment_eu</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>aiukgf8</sys_created_by><sys_created_on>2021-06-21 11:11:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f5391f72db787c905f57a8dad3961987</sys_id><sys_mod_count>1</sys_mod_count><sys_name>reqtype_manual_abo_payment_eu</sys_name><sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope><sys_update_name>sys_ui_policy_action_f5391f72db787c905f57a8dad3961987</sys_update_name><sys_updated_by>aiukgf8</sys_updated_by><sys_updated_on>2021-06-21 11:12:25</sys_updated_on><table>x_aai_finance_mana_finance_management_task</table><ui_policy display_value="Show Request type for RU Manual ABO Payment request">f0889ffedb387c905f57a8dad39619cf</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1609416218</payload_hash>
+        <record_name>reqtype_manual_abo_payment_eu</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 11:12:25</sys_created_on>
+        <sys_id>3179df72db787c905f57a8dad39619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a2e4581f30000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 11:12:25</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7579df72ee787c90b96b8146cb957fc2</update_guid>
+        <update_guid_history>7579df72ee787c90b96b8146cb957fc2:1609416218,8d495b329a787c9064d0895804981ff3:2133033715</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 11:17:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>00c2177d9fe44b37826dfaf587b87089</sys_id>
+        <sys_metadata>f5391f72db787c905f57a8dad3961987</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reqtype_manual_abo_payment_eu</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="MAPR - Show Request type for RU Manual ABO Payment request">f0889ffedb387c905f57a8dad39619cf</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f5391f72db787c905f57a8dad3961987</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f5391f72db787c905f57a8dad3961987">3179df72db787c905f57a8dad39619c3</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 11:17:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

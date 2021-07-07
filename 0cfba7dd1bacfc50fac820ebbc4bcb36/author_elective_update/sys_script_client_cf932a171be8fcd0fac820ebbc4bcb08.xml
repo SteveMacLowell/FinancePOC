@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>m_cat_item</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>iF OU IS BELONGS TO gcr</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+	var cat_item = g_form.getValue('m_cat_item');
+	if(cat_item == 'Manual ABO Payment Request');
+if(newValue== "870bf4011b68a850fac820ebbc4bcbf2" || newValue == "3b8b3c411b68a850fac820ebbc4bcb36" || newValue == "c43cfcc11b68a850fac820ebbc4bcb97" || newValue == "81ac26d8dbaefa005d625434ce9619c5" || newValue == "a8ac26d8dbaefa005d625434ce96194e" || newValue == "a76ffa11db7e7a405d625434ce96194d" || newValue == "7cac26d8dbaefa005d625434ce961966" || newValue == "0f9c5b07dbd51b40bc31c170ba9619dc" || newValue == "cf43f682db09438439cc7bedae961981" || newValue == "6323b642db09438439cc7bedae96199c" || newValue == "4f5f2c68db5b1f4875499345ca96191f")
+	{
+	
+alert("Please note, the GCR operating units are out of scope for this form. If submitted, your ticket will be closed.");
+return false;
+   //Type appropriate comment here, and begin script below
+   
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-10 10:20:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf932a171be8fcd0fac820ebbc4bcb08</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>iF OU IS BELONGS TO gcr</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_script_client_cf932a171be8fcd0fac820ebbc4bcb08</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-10 10:21:53</sys_updated_on>
+        <table>x_aai_finance_mana_finance_mgmt_task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_script_client_cf932a171be8fcd0fac820ebbc4bcb08</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;m_cat_item&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;iF OU IS BELONGS TO gcr&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+	var cat_item = g_form.getValue('m_cat_item');
+	if(cat_item == 'Manual ABO Payment Request');
+if(newValue== "870bf4011b68a850fac820ebbc4bcbf2" || newValue == "3b8b3c411b68a850fac820ebbc4bcb36" || newValue == "c43cfcc11b68a850fac820ebbc4bcb97" || newValue == "81ac26d8dbaefa005d625434ce9619c5" || newValue == "a8ac26d8dbaefa005d625434ce96194e" || newValue == "a76ffa11db7e7a405d625434ce96194d" || newValue == "7cac26d8dbaefa005d625434ce961966" || newValue == "0f9c5b07dbd51b40bc31c170ba9619dc" || newValue == "cf43f682db09438439cc7bedae961981" || newValue == "6323b642db09438439cc7bedae96199c" || newValue == "4f5f2c68db5b1f4875499345ca96191f")
+	{
+	
+alert("Please note, the GCR operating units are out of scope for this form. If submitted, your ticket will be closed.");
+return false;
+   //Type appropriate comment here, and begin script below
+   
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;aiukgf8&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-10 10:20:10&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cf932a171be8fcd0fac820ebbc4bcb08&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;iF OU IS BELONGS TO gcr&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Management" source="x_aai_finance_mana"&gt;0cfba7dd1bacfc50fac820ebbc4bcb36&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Finance Management"&gt;0cfba7dd1bacfc50fac820ebbc4bcb36&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_cf932a171be8fcd0fac820ebbc4bcb08&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;aiukgf8&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-10 10:21:53&lt;/sys_updated_on&gt;&lt;table&gt;x_aai_finance_mana_finance_mgmt_task&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-138577673</payload_hash>
+        <record_name>iF OU IS BELONGS TO gcr</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-10 10:21:53</sys_created_on>
+        <sys_id>9264a6971be8fcd0fac820ebbc4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f5714aac0000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-10 10:21:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5a64a69716e8fcd0df79eeca129bf054</update_guid>
+        <update_guid_history>5a64a69716e8fcd0df79eeca129bf054:-138577673,bf34ee5731e8fcd043d17b19aa899d8b:1708570019,5c14ea17f6e8fcd0982a6a001144cc47:-138577673,d9046e1781e8fcd0f4baee6b59344738:-509588120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 10:44:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>878b3645def74dc0989e804e29ca0c40</sys_id>
+        <sys_metadata>cf932a171be8fcd0fac820ebbc4bcb08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iF OU IS BELONGS TO gcr</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="">ea1e631d1becfc50fac820ebbc4bcb1d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_script_client_cf932a171be8fcd0fac820ebbc4bcb08</sys_update_name>
+        <sys_update_version display_value="sys_script_client_cf932a171be8fcd0fac820ebbc4bcb08">9264a6971be8fcd0fac820ebbc4bcb55</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 10:44:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

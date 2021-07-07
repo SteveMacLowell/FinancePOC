@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>manual_abo_payment_highestpaymentvalue_usd</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(high. line)Show Approvers Russia LA&lt;10k</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+	var item = g_form.getValue('fin_cat_item');
+	alert(item);
+	//if(item =="3D3d4c9d141b8860902bf064e9bc4bcbaa")
+	//	{
+var test = parseFloat(g_form.getValue('manual_abo_payment_highestpaymentvalue_usd'));
+	//var a= g_form.getValue('amount_in_usd');
+var ou = g_form.getValue('operating_unit');
+	if(ou=='bcac26d8dbaefa005d625434ce961957'||ou=='5a4c412ddbe23240a238d8f3ce961946'){
+		//alert('test'+ou);
+		if (g_form.getValue('reqtype_manual_abo_payment_ru') == 'Loan/Advance' && g_form.getValue('normal_market_interest_rate_applied') == 'Yes') {   
+if(test<=10000.00){
+			//alert('345' +test);
+		g_form.setDisplay('approver_Loan_adv_russialessthan10k','true');
+		g_form.setMandatory('approver_Loan_adv_russialessthan10k','true');
+} 
+			else{
+	g_form.clearValue('approver_Loan_adv_russialessthan10k');			
+	g_form.setMandatory('approver_Loan_adv_russialessthan10k','false');
+	g_form.setDisplay('approver_Loan_adv_russialessthan10k','false');
+		
+
+}   
+		}
+	
+	}
+   
+}
+//}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-23 10:16:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>168f556b8770709427130e97cebb35e4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>(high. line)Show Approvers Russia LA&lt;10k</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_script_client_168f556b8770709427130e97cebb35e4</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-30 11:37:09</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

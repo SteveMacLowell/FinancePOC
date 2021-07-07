@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>manual_abo_payment_amount_excel</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-09 09:47:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>100395071be8f8d0fac820ebbc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manual_abo_payment_amount_excel</sys_name>
+        <sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_ui_policy_action_100395071be8f8d0fac820ebbc4bcbd3</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-09 09:47:43</sys_updated_on>
+        <table>x_aai_finance_mana_finance_mgmt_task</table>
+        <ui_policy display_value="Show MAnual ABO Fields">2f8295071be8f8d0fac820ebbc4bcbc8</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</application>
+        <file_path/>
+        <instance_id>d6a202efdb4e6a08536af5b0cf9619d6</instance_id>
+        <instance_name>amwaydev</instance_name>
+        <name>sys_ui_policy_action_100395071be8f8d0fac820ebbc4bcbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>manual_abo_payment_amount_excel</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>aiukgf8</sys_created_by><sys_created_on>2021-06-09 09:47:43</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>100395071be8f8d0fac820ebbc4bcbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>manual_abo_payment_amount_excel</sys_name><sys_package display_value="Finance Management" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Finance Management">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope><sys_update_name>sys_ui_policy_action_100395071be8f8d0fac820ebbc4bcbd3</sys_update_name><sys_updated_by>aiukgf8</sys_updated_by><sys_updated_on>2021-06-09 09:47:43</sys_updated_on><table>x_aai_finance_mana_finance_mgmt_task</table><ui_policy display_value="Show MAnual ABO Fields">2f8295071be8f8d0fac820ebbc4bcbc8</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1634645128</payload_hash>
+        <record_name>manual_abo_payment_amount_excel</record_name>
+        <reverted_from/>
+        <source>48fba7dd1bacfc50fac820ebbc4bcb39</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-09 09:47:43</sys_created_on>
+        <sys_id>180395071be8f8d0fac820ebbc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f02ba9210000001</sys_recorded_at>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-09 09:47:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1003950754e8f8d04e3ee2aed387c7d5</update_guid>
+        <update_guid_history>1003950754e8f8d04e3ee2aed387c7d5:-1634645128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-21 10:43:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5b2220f96b9742a2a3af44f3d5cd34e9</sys_id>
+        <sys_metadata>100395071be8f8d0fac820ebbc4bcbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manual_abo_payment_amount_excel</sys_name>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_parent display_value="">2f8295071be8f8d0fac820ebbc4bcbc8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_scope_delete display_value="">0540040dc3314d7896ad51b4d91126e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_100395071be8f8d0fac820ebbc4bcbd3</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_100395071be8f8d0fac820ebbc4bcbd3">180395071be8f8d0fac820ebbc4bcbd5</sys_update_version>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-21 10:43:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

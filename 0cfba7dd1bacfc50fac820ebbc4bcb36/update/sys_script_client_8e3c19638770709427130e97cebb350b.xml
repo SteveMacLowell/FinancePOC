@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>fin_cat_item</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>iF OU IS BELONGS TO gcr</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+	var item = g_form.getValue('fin_cat_item');
+	
+if((newValue== "870bf4011b68a850fac820ebbc4bcbf2" || newValue == "3b8b3c411b68a850fac820ebbc4bcb36" || newValue == "c43cfcc11b68a850fac820ebbc4bcb97" || newValue == "81ac26d8dbaefa005d625434ce9619c5" || newValue == "a8ac26d8dbaefa005d625434ce96194e" || newValue == "a76ffa11db7e7a405d625434ce96194d" || newValue == "7cac26d8dbaefa005d625434ce961966" || newValue == "0f9c5b07dbd51b40bc31c170ba9619dc" || newValue == "cf43f682db09438439cc7bedae961981" || newValue == "6323b642db09438439cc7bedae96199c" || newValue == "4f5f2c68db5b1f4875499345ca96191f") && item == "3d4c9d141b8860902bf064e9bc4bcbaa")
+	{
+	
+alert("Please note, the GCR operating units are out of scope for this form. If submitted, your ticket will be closed.");
+return false;
+   //Type appropriate comment here, and begin script below
+   
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aiukgf8</sys_created_by>
+        <sys_created_on>2021-06-23 10:01:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e3c19638770709427130e97cebb350b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>iF OU IS BELONGS TO gcr</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Management - POC" source="x_aai_finance_mana">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Finance Management - POC">0cfba7dd1bacfc50fac820ebbc4bcb36</sys_scope>
+        <sys_update_name>sys_script_client_8e3c19638770709427130e97cebb350b</sys_update_name>
+        <sys_updated_by>aiukgf8</sys_updated_by>
+        <sys_updated_on>2021-06-29 14:51:16</sys_updated_on>
+        <table>x_aai_finance_mana_finance_management_task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
